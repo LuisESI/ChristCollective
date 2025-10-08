@@ -1,6 +1,29 @@
-node_modules
-dist
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+
+# Capacitor / iOS
+ios/App/App.xcworkspace/
+ios/App/build/
+ios/App/Pods/
+ios/App/DerivedData/
+ios/Podfile.lock
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# IDE files
+.vscode/
+.idea/
 .DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+
+# Environment variables
+.env
+.env.*
